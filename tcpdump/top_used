@@ -1,0 +1,24 @@
+
+
+sudo tcpdump host <specific_ip_address>
+
+
+sudo tcpdump -i eth0 host <specific_ip_address>
+
+sudo tcpdump src <specific_ip_address>
+# or
+sudo tcpdump dst <specific_ip_address>
+
+
+sudo tcpdump host <specific_ip_address> and port <specific_port>
+
+sudo tcpdump -i eth0 host <specific_ip_address> and port <specific_port>
+
+sudo tcpdump src <specific_ip_address> and port <specific_port>
+# or
+sudo tcpdump dst <specific_ip_address> and port <specific_port>
+
+
+sudo tcpdump -i <interface> port <specific_port> and <protocol>
+
+sudo tcpdump -i eth0 port 80 and icmp

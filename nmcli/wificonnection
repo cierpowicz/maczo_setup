@@ -1,0 +1,9 @@
+### Wifi Connection
+
+#### Step 1
+
+sudo nmcli device wifi
+
+#### Step 2
+
+sudo nmcli dev wifi connection bssid password *******
